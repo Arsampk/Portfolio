@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsam Pakseresht - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.5s, opacity 0.5s;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #ffcc00;
+        }
+        .projects a {
+            display: block;
+            margin: 10px 0;
+        }
+        .visible {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            font-size: 1em;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #00c6ff;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Arsam Pakseresht</h1>
+    <p>Aspiring Software Developer</p>
+</header>
+
+<section class="fade-section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>Currently pursuing a <strong>Computer Programming diploma at Seneca College</strong>, expected to graduate in April 2025.</p>
+    <p>Passionate about <strong>app development, cybersecurity, and backend development</strong>. Seeking an internship opportunity to contribute, learn, and grow.</p>
+</section>
+
+<section class="fade-section" data-aos="fade-up">
+    <h2>Technical Skills</h2>
+    <p><strong>Languages:</strong> C, C++, JavaScript, Python, SQL, Java</p>
+    <p><strong>Web Technologies:</strong> HTML, CSS, JavaScript, DOM manipulation</p>
+    <p><strong>Databases:</strong> SQL, MySQL</p>
+    <p><strong>Version Control:</strong> Git, GitHub</p>
+</section>
+
+<section class="projects fade-section" data-aos="fade-up">
+    <h2>Projects</h2>
+    <p><strong>Country Information Web Application:</strong> <a href="https://github.com/Arsampk/Country-site" target="_blank">GitHub Repo</a></p>
+    <p><strong>Library Management System (C++):</strong> <a href="https://github.com/Arsampk/Library" target="_blank">GitHub Repo</a></p>
+    <p><strong>Music App Prototype:</strong> <a href="https://github.com/Arsampk/Music_site" target="_blank">GitHub Repo</a></p>
+</section>
+
+<section class="fade-section" data-aos="fade-up">
+    <h2>Certifications</h2>
+    <p>Currently exploring certifications in Cybersecurity, Cloud Computing, and Web Development.</p>
+</section>
+
+<section class="fade-section" data-aos="fade-up">
+    <h2>Contact</h2>
+    <div class="social-icons">
+        <a href="mailto:arsam2004pak@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/seyed-arsam-pak-seresht" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Arsampk" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Arsam Pakseresht | Designed with 💙</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        easing: "ease-in-out",
+        once: false
+    });
+</script>
+</body>
+</html>
